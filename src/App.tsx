@@ -7,7 +7,7 @@ function App() {
     <>
       <div className={`w-full h-screen duration-200 ${color}`}>
         <div className='flex justify-center items-center fixed inset-x-0 bottom-12 px-2'>
-          <div className='bg-white flex gap-3 justify-center rounded-3xl px-3 py-2'>
+          <div className='bg-white flex flex-wrap gap-3 justify-center rounded-3xl px-3 py-2'>
             <button className='rounded-full shadow-sm px-4 py-2 bg-red-500 text-white' onClick={() => setColor("bg-red-500")}>Red</button>
             <button className='rounded-full shadow-sm px-4 py-2 bg-green-500 text-white' onClick={() => setColor("bg-green-500")}>Green</button>
             <button className='rounded-full shadow-sm px-4 py-2 bg-blue-500 text-white' onClick={() => setColor("bg-blue-500")}>Blue</button>
